@@ -6,6 +6,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>slottyVegas</title>
+
+    <style>
+        @media screen and (max-width: 480px){
+            p, ul, li{
+                font-size: 13px !important;
+                padding: 0 !important;
+            }
+
+            ul{
+                padding-right: 20px !important;
+                padding-left: 20px !important;
+            }
+
+            .mobile-hide{
+                display: none;
+            }
+            .mobile-h-20{
+                height: 20px !important;
+            }
+        }
+    </style>
 </head>
 
 <body style="margin: 0; padding: 0 !important; mso-line-height-rule: exactly;">
@@ -20,7 +41,7 @@
                        background-position: center center;
                        background-size: cover;">
                     <table role="presentation" cellspacing="0" cellpadding="0" border="0" id="mailer" align="center"
-                        width="650" style="border-collapse: collapse; margin: auto;" class="width-100-mobile">
+                        width="100%" style="border-collapse: collapse; margin: auto;max-width:650px" class="width-100-mobile">
                         <tbody>
                             <tr>
                                 <td height="15"></td>
@@ -36,8 +57,9 @@
                                                         <img 
                                                         src="./img/logo.png" 
                                                         height="60"
+                                                        width="154"
                                                         border="0" 
-                                                        style="max-width: 100%; margin-right: -20px; margin-left: -20px" 
+                                                        style="max-width: 100%; margin-right: -20px; margin-left: -20px; min-width: 154px;" 
                                                         alt="Maxent Logo">
                                                     </a>
                                                 </td>
@@ -117,7 +139,7 @@
                                                     <br>
                                                 </td>
                                             </tr>
-                                            <tr>
+                                            <tr class="mobile-hide">
                                                 <td height="40"></td>
                                             </tr>
                                             <tr>
@@ -137,7 +159,7 @@
                                                     </table>
                                                 </td>
                                             </tr>
-                                            <tr>
+                                            <tr class="mobile-h-20">
                                                 <td height="50"></td>
                                             </tr>
                                         </tbody>
@@ -218,67 +240,158 @@
             </tr>
         </tbody>
     </table>
+    
     <table role="presentation" cellspacing="0" cellpadding="0" border="0" bgcolor="#ffffff"
         style="width: 100%;  border-collapse: collapse;">
         <tbody>
             <tr>
                 <td>
-                    <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" width="650"
-                        class="footer-full-width" style="border-collapse: collapse; text-align: center;">
+                    <!-- top items -->
+                    <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" width="100%" style="margin: auto; max-width: 650px;">
                         <tbody>
                             <tr>
                                 <td colspan="5" height="30"></td>
                             </tr>
                             <tr>
-                                <td>
-                                    <img src="http://cdn.mcauto-images-production.sendgrid.net/79bf2780a6af6c37/cbdfe23a-98c4-4356-b7ab-6c215777cf10/104x33.png"
-                                        border="0" alt="Trustly">
-                                </td>
-                                <td>
-                                    <img src="http://cdn.mcauto-images-production.sendgrid.net/79bf2780a6af6c37/fc23fd7f-d3ff-4ab4-a79a-4c870b534dc1/106x31.png"
-                                        border="0" alt="Play N Go">
-                                </td>
-                                <td>
-                                    <img src="http://cdn.mcauto-images-production.sendgrid.net/79bf2780a6af6c37/be68449a-bb45-4bc0-90e9-71e8dfd6889c/96x33.png"
-                                        border="0" alt="Netent">
-                                </td>
-                                <td>
-                                    <img src="http://cdn.mcauto-images-production.sendgrid.net/79bf2780a6af6c37/55bcae97-8a00-42c7-b490-693d1ee1e497/77x31.png"
-                                        height="17" border="0" alt="Big time gaming">
+                                
+                                <td style="padding-top:0px;padding-bottom:20px;padding-right:0;padding-left:0;text-align:center;">
+                                    <!--[if (gte mso 9)|(IE)]>
+                                      <table width="100%">
+                                      <tr>
+                                      <td width="110" valign="top" >
+                                      <![endif]-->
+                                    <div class="column" style="width:100%;max-width:140px;display:inline-block;vertical-align:top;">
+                                        <table width="100%" cellpadding="0" cellspacing="0" style="border-spacing:0;">
+                                            <tr>
+                                                <td align="center"
+                                                    style="padding-right:5px;padding-left:5px;padding-top:5px;padding-bottom:5px">
+                                                    <img src="http://cdn.mcauto-images-production.sendgrid.net/79bf2780a6af6c37/cbdfe23a-98c4-4356-b7ab-6c215777cf10/104x33.png"
+                                                    border="0" alt="Trustly">
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <!--[if (gte mso 9)|(IE)]>
+                                      </td><td width="110" valign="top" >
+                                      <![endif]-->
+                                    <div class="column" style="width:100%;max-width:140px;display:inline-block;vertical-align:top;">
+                                        <table width="100%" cellpadding="0" cellspacing="0" style="border-spacing:0;">
+                                            <tr>
+                                                <td
+                                                    style="padding-right:5px;padding-left:5px;padding-top:5px;padding-bottom:5px">
+                                                    <img src="http://cdn.mcauto-images-production.sendgrid.net/79bf2780a6af6c37/fc23fd7f-d3ff-4ab4-a79a-4c870b534dc1/106x31.png"
+                                                    border="0" alt="Play N Go">
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <!--[if (gte mso 9)|(IE)]>
+                                      </td><td width="110" valign="top" >
+                                      <![endif]-->
+                                    <div class="column" style="width:100%;max-width:140px;display:inline-block;vertical-align:top;">
+                                        <table width="100%" cellpadding="0" cellspacing="0" style="border-spacing:0;">
+                                            <tr>
+                                                <td
+                                                    style="padding-right:5px;padding-left:5px;padding-top:5px;padding-bottom:5px">
+                                                    <img src="http://cdn.mcauto-images-production.sendgrid.net/79bf2780a6af6c37/be68449a-bb45-4bc0-90e9-71e8dfd6889c/96x33.png"
+                                                    border="0" alt="Netent">
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <!--[if (gte mso 9)|(IE)]>
+                                      </td><td width="110" valign="top" >
+                                      <![endif]-->
+                                    <div class="column" style="width:100%;max-width:140px;display:inline-block;vertical-align:top;">
+                                        <table width="100%" cellpadding="0" cellspacing="0" style="border-spacing:0;">
+                                            <tr>
+                                                <td
+                                                    style="padding-right:5px;padding-left:5px;padding-top:5px;padding-bottom:5px">
+                                                    <img src="http://cdn.mcauto-images-production.sendgrid.net/79bf2780a6af6c37/55bcae97-8a00-42c7-b490-693d1ee1e497/77x31.png"
+                                                    height="17" border="0" alt="Big time gaming">
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <!--[if (gte mso 9)|(IE)]>
+                                      </td><td width="110" valign="top" >
+                                      <![endif]-->
                                 </td>
                             </tr>
                         </tbody>
                     </table>
-                    <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" width="650"
-                        class="footer-full-width" style="border-collapse: collapse; text-align: center;">
+
+                    <!-- bottom items -->
+                    <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" width="100%" style="margin: auto; max-width: 650px;">
                         <tbody>
                             <tr>
                                 <td colspan="5" height="30"></td>
                             </tr>
                             <tr>
-                                <td>
-                                    <img src="http://cdn.mcauto-images-production.sendgrid.net/79bf2780a6af6c37/8113ae02-c4b8-4211-a213-e643143f2af0/126x26.png"
-                                        class="footer-images-mobile" border="0" alt="MGA">
+                                
+                                <td style="padding-top:0px;padding-bottom:20px;padding-right:0;padding-left:0;text-align:center;">
+                                    <!--[if (gte mso 9)|(IE)]>
+                                      <table width="100%">
+                                      <tr>
+                                      <td width="110" valign="top" >
+                                      <![endif]-->
+                                    <div class="column" style="width:100%;max-width:140px;display:inline-block;vertical-align:top;">
+                                        <table width="100%" cellpadding="0" cellspacing="0" style="border-spacing:0;">
+                                            <tr>
+                                                <td align="center"
+                                                    style="padding-right:5px;padding-left:5px;padding-top:5px;padding-bottom:5px">
+                                                    <img src="http://cdn.mcauto-images-production.sendgrid.net/79bf2780a6af6c37/8113ae02-c4b8-4211-a213-e643143f2af0/126x26.png"
+                                                    class="footer-images-mobile" border="0" alt="MGA">
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <!--[if (gte mso 9)|(IE)]>
+                                      </td><td width="110" valign="top" >
+                                      <![endif]-->
+                                    <div class="column" style="width:100%;max-width:140px;display:inline-block;vertical-align:top;">
+                                        <table width="100%" cellpadding="0" cellspacing="0" style="border-spacing:0;">
+                                            <tr>
+                                                <td
+                                                    style="padding-right:5px;padding-left:5px;padding-top:5px;padding-bottom:5px">
+                                                    <img src="http://cdn.mcauto-images-production.sendgrid.net/79bf2780a6af6c37/b5c74918-8c0c-48be-90e2-e9562698dca2/32x32.png"
+                                                    class="footer-images-mobile" border="0" alt="18 PLUS">
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <!--[if (gte mso 9)|(IE)]>
+                                      </td><td width="110" valign="top" >
+                                      <![endif]-->
+                                    <div class="column" style="width:100%;max-width:140px;display:inline-block;vertical-align:top;">
+                                        <table width="100%" cellpadding="0" cellspacing="0" style="border-spacing:0;">
+                                            <tr>
+                                                <td
+                                                    style="padding-right:5px;padding-left:5px;padding-top:5px;padding-bottom:5px">
+                                                    <img src="http://cdn.mcauto-images-production.sendgrid.net/79bf2780a6af6c37/59feb377-533c-45bb-88c7-380269fab5e8/118x17.png"
+                                                    class="footer-images-mobile" border="0" alt="GAMBLE AWARE">
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <!--[if (gte mso 9)|(IE)]>
+                                      </td><td width="110" valign="top" >
+                                      <![endif]-->
+                                    <div class="column" style="width:100%;max-width:140px;display:inline-block;vertical-align:top;">
+                                        <table width="100%" cellpadding="0" cellspacing="0" style="border-spacing:0;">
+                                            <tr>
+                                                <td
+                                                    style="padding-right:5px;padding-left:5px;padding-top:5px;padding-bottom:5px">
+                                                    <img src="http://cdn.mcauto-images-production.sendgrid.net/79bf2780a6af6c37/e5f42b62-b6d0-4040-8a55-e2514d217311/118x17.png"
+                                                    class="footer-images-mobile" height="17" border="0" alt="GAMBCARE">
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <!--[if (gte mso 9)|(IE)]>
+                                      </td><td width="110" valign="top" >
+                                      <![endif]-->
                                 </td>
-                                <td>
-                                    <img src="http://cdn.mcauto-images-production.sendgrid.net/79bf2780a6af6c37/b5c74918-8c0c-48be-90e2-e9562698dca2/32x32.png"
-                                        class="footer-images-mobile" border="0" alt="18 PLUS">
-                                </td>
-                                <td>
-                                    <img src="http://cdn.mcauto-images-production.sendgrid.net/79bf2780a6af6c37/59feb377-533c-45bb-88c7-380269fab5e8/118x17.png"
-                                        class="footer-images-mobile" border="0" alt="GAMBLE AWARE">
-                                </td>
-                                <td>
-                                    <img src="http://cdn.mcauto-images-production.sendgrid.net/79bf2780a6af6c37/e5f42b62-b6d0-4040-8a55-e2514d217311/118x17.png"
-                                        class="footer-images-mobile" height="17" border="0" alt="GAMBCARE">
-                                </td>
-                                <td>
-                                    <img src="http://cdn.mcauto-images-production.sendgrid.net/79bf2780a6af6c37/5f528b62-b900-46b2-a478-7e99a5077062/65x26.png"
-                                        class="footer-images-mobile" border="0" alt="IBAS">
-                                </td>
-                            </tr>
-                            <tr>
-                                <td colspan="5" height="30"></td>
                             </tr>
                         </tbody>
                     </table>
@@ -286,6 +399,7 @@
             </tr>
         </tbody>
     </table>
+
     <title></title>
 
 
